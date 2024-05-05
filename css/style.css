@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@400..700&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@400..700&family=Poetsen+One&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+/* font-family: "Poetsen One", sans-serif;   for heading */
+/* font-family: "Abel", sans-serif;  for content */
+/* font-family: "Dancing Script", cursive;  for specialfont */
+/* font-family: "Ubuntu Sans Mono", monospace; ubuntu font */
+body{
+    background-color: #cce5ef;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    font-family: "Ubuntu Sans Mono", monospace;
+    position: sticky;
+    font-weight: bold;
+}
+nav ul li{
+    padding:0 12px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;  
+}
+ a:hover{
+    color:rgb(4, 24, 90);  
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+    background-color: #50bcdd;
+    color: white;
+    
+}
+
+.t2{
+    width: 58px;
+    border-radius: 26px;
+    padding: 0 8px;
+    padding-right: 0;
+    cursor: pointer;
+    /* transition: all 1.3s ease-out; */
+}
+.image{
+    
+       width: 58px;
+       border-radius: 26px;
+       padding: 0 8px;
+       padding-left: 0;
+       cursor: pointer;
+       /* transition: all 1.3s ease-out ; */
+}
+
+.t{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-weight: bold;
+    font-family: "Dancing Script", cursive; 
+    border: white solid 2px;
+    border-radius: 20px;
+    padding:0px;
+    padding-right: 0px;
+    font-size: larger;
+    padding-left: 5px;
+    transition: all 0.4s ease-in-out ;
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    font-family: "Dancing Script", cursive; 
+    border: white solid 2px;
+    border-radius: 20px;
+    padding:0px;
+    padding-right: 5px;
+    font-size: larger;
+    transition: all 0.4s ease-in-out;
+}
+.container{
+    min-height: 63vh;
+    font-family: "Abel", sans-serif;
+    background-color:#a88edb;
+    color:#f6f7fc;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)),url('../Images/bg2.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 470px;
+ 
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: #50bcdd;
+    bottom:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.icons{
+    margin-top: 12px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 74px;
+}
+.songItem{
+    height:46px;
+    display: flex;
+    background-color: rgb(78, 24, 224);
+    background-image: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.8)),url('../Images/background.avif');
+    color:#eceaf0;
+    margin:12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img{
+    width: 44px;
+    height: 45px;
+    margin:0 23px;
+    border-radius: 33px;
+    border: white solid 2px;
+}
+.timestamp{
+    margin:0 8px;
+    
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position:absolute;
+    left:9vw;
+    display: flex;
+    flex-direction: row;
+    margin-top:7px;
+    align-items: center;
+    font-family: "Dancing Script", cursive;  
+    font-size: 23px;
+    color: #341c6b;
+}
+.songInfo img{
+    margin-top:6px;
+    height: 46px;
+    width:38%;
+    border-radius: 38px;
+    opacity:0;
+    transition: opacity 0.4s ease-in;
+}
+#m{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}

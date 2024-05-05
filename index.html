@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musify-Play your favourites </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="b">
+        <ul>
+            <li class="brand t"><img class = "image t2" src="Images/logo.jpg" alt="Musify" onclick="func">Musify</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>    
+            <li><a href="#">Subscription</a></li>    
+        </ul>
+    </nav>
+    <div class="container">
+           <div class="songlist">
+                <h1>Best of NCS - No Copyright Sounds</h1>
+                <div class="songItemContainer">
+                    <div class="songItem">
+                        <img class = "s1" alt="1">
+                        <span class="songname">Hosana</span>
+                        <span class="songlistplay"><span class="timestamp">05:34<i id="0" class="far  songItemPlay  fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img class = "s1" alt="1">
+                        <span class="songname">Closer</span>
+                        <span class="songlistplay"><span class="timestamp">04:34<i id="1" class="far  songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img class = "s1" src alt="1">
+                        <span class="songname">Phli Nazar mei</span>
+                        <span class="songlistplay"><span class="timestamp">06:24<i id="2" class="far  songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img class = "s1" alt="1">
+                        <span class="songname">Let me Love You</span>
+                        <span class="songlistplay"><span class="timestamp">04:44<i id="3" class="far  songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img class = "s1"  alt="1">
+                        <span class="songname">Zara Sa</span>
+                        <span class="songlistplay"><span class="timestamp">04:24<i id="4" class="far songItemPlay  fa-play-circle"></i></span></span>
+                    </div>
+                </div>
+           </div>
+           <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" value="0" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="Images/cool.gif" id="gif" width="45px;" alt=""> <marquee id ="m">Hosana - A.R. Rahman</marquee>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/7463fb6e74.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
