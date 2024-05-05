@@ -6,18 +6,18 @@ img.addEventListener('click',()=>{
       image1.classList.toggle('image');
 })
 let songIndex = 0;
-let audioElement = new Audio('C:/Users/HP/Desktop/Project 2 Music Website/Images/Hosanna.mp3');
+let audioElement = new Audio('../Images/Hosanna.mp3');
 let masterPlay = document.getElementById("masterPlay");
 let myprogressbar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
 let m = document.getElementById('m');
 let songItem= Array.from(document.getElementsByClassName('songItem'));
 let songs = [
-      {songName : "Hosana - A.R. Rahman" , filePtah: "C:/Users/HP/Desktop/Project 2 Music Website/Images/Hosanna.mp3" , coverpath:"C:/Users/HP/Desktop/Project 2 Music Website/Images/hosana.jpg"},
-      {songName : "Let Me Love You - Justin Beiber" , filePtah: "C:/Users/HP/Desktop/Project 2 Music Website/Images/let me love you.opus" , coverpath:"C:/Users/HP/Desktop/Project 2 Music Website/Images/let me.jpg"},
-      {songName : "Closer - Chainsmoker" , filePtah: "C:/Users/HP/Desktop/Project 2 Music Website/Images/closer.opus" , coverpath:"C:/Users/HP/Desktop/Project 2 Music Website/Images/closer.png"},
-      {songName : "Zara Sa - K.K." , filePtah: "C:/Users/HP/Desktop/Project 2 Music Website/Images/zara sa.opus" , coverpath:"C:/Users/HP/Desktop/Project 2 Music Website/Images/zara sa.jpg"},
-      {songName : "Phli Nazar Mei - Atif Aslam " , filePtah: "C:/Users/HP/Desktop/Project 2 Music Website/Images/phli nazar mei.opus" , coverpath:"C:/Users/HP/Desktop/Project 2 Music Website/Images/phli nazar.jpg"}
+      {songName : "Hosana - A.R. Rahman" , filePtah: "../Images/Hosanna.mp3" , coverpath:"../Images/hosana.jpg"},
+      {songName : "Let Me Love You - Justin Beiber" , filePtah: "../Images/let me love you.opus" , coverpath:"../Images/let me.jpg"},
+      {songName : "Closer - Chainsmoker" , filePtah: "../Images/closer.opus" , coverpath:"../Images/closer.png"},
+      {songName : "Zara Sa - K.K." , filePtah: "../Images/zara sa.opus" , coverpath:"../Images/zara sa.jpg"},
+      {songName : "Phli Nazar Mei - Atif Aslam " , filePtah: "../Images/phli nazar mei.opus" , coverpath:"../Images/phli nazar.jpg"}
 ]
 //Handle Play/Pause Click
 masterPlay.addEventListener('click',()=>{
